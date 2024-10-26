@@ -22,6 +22,7 @@ steps-to-reproduce: |
     Нажать кнопку "Checkount"
 expected-result: |
     Корректное оформление заказа
+    Статус запроса должен быть 200 OK
 actual-result: |
     В консоли браузера в Devtools выводится ошибка 500 Internal Server Error.
     Заказ не оформляется 
