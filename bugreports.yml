@@ -70,4 +70,15 @@ expected-result: |
 actual-result: |
     В английском языке не отображается изображение флага, отображается только для русской
     
+- summary: |
+    Кнопка закрытия "Х" в модальном окне Order placed successfully не работает
+environment: |
+    Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
+    OC Windows 10 pro 22H2
+steps-to-reproduce: |
+    Нажать кнопку checkout в корзине с товарами, чтобы проверить закрывается ли "X" в модальном окне
+expected-result: |
+    Кнопка закрытия "Х" в модальном окне Order placed successfully должна закрыватся
+actual-result: |
+    Кнопка закрытия "Х" в модальном окне Order placed successfully не работает и не закрывается
     
