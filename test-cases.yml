@@ -6,7 +6,7 @@
   prerequisites: | 
     no-data
   test-data: |
-    no data
+    no-data
   steps:
     - Выбрать любой товар 
     - Открыть выбранный товар 
