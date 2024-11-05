@@ -21,7 +21,7 @@
   prerequisites:
     no-data
   test-data: |
-  no data
+    no data
   steps:
     - Нажать на "Add to cart", любого выбранного товара
     - Открыть корзину
