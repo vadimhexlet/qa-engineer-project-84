@@ -3,7 +3,7 @@
     Проверка открытия фото в карточке товара
   requirement: |
     При нажатии на иконку товара сайт корректно отображает фото выбранного товара
-  prerequisites:  
+  prerequisites: | 
     no-data
   test-data: |
     no data
@@ -18,7 +18,7 @@
     Проверка добавления товаров в корзину 
   requirement: |
     При нажатии на кнопку "Add to cart" товар добавляется в корзину
-  prerequisites:
+  prerequisites: |
     no-data
   test-data: |
     no data
