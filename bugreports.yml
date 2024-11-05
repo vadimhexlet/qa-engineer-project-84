@@ -1,84 +1,83 @@
 ---
 - summary: |
     Не переводится описание товаров при смене локали на русский
-environment:
-   Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
-   OC Windows 10 pro 22H2
-steps-to-reproduce: |
+  environment: |
+    Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
+    OC Windows 10 pro 22H2
+  steps-to-reproduce: |
     Поменять язык на русский 
-expected-result: |
+  expected-result: |
     В описании товаров должен поменяться язык на русский 
-actual-result: |
+  actual-result: |
     При переходе на русский язык, остается английский язык, названия товаров не меняются
     
 - summary: |
     Ошибка 500 при оформлении заказа
-environment: |
+  environment: |
     Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
     OC Windows 10 pro 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Нажать кнопку на товаре "Добавить в корзину"
     Перейти в корзину
     Нажать кнопку "Checkount"
-expected-result: |
+  expected-result: |
     Корректное оформление заказа
     Статус запроса должен быть 200 OK
-actual-result: |
+  actual-result: |
     В консоли браузера в Devtools выводится ошибка 500 Internal Server Error.
     Заказ не оформляется 
     
 - summary: |
     Нет версии сайта для мобильных устройств 
-environment:
-   Browser Safari 
-   Iphone 12
-steps-to-reproduce: |
+  environment: |
+    Browser Safari 
+    Iphone 12
+  steps-to-reproduce: |
     Перейти по ссылке:
     https://hexlet-products-store.vercel.app/
     Просмотреть каталог, переместиться на следующие страницы сайта 
-expected-result: |
+  expected-result: |
     Все элементы должны адекватно работать 
     Элементы страницы не должны переноситься, исчезать, менять свою ширину
     Кнопки должны нажиматься, меню раскрываться, поля у форм обрабатывать введенный текст
-actual-result: |
+  actual-result: |
     Шапка профиля имеет большую ширину
     Изображения карточек товаров на следующих страницах прогрузились не сразу 
     Поля ввода "Price" маленькие, сумма введенного числа не помещается в поля "от и до"
     
 - summary: |
     Изображения у всех товаров отображаются некорректно
-environment: |
+  environment: |
     Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
     OC Windows 10 pro 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
    Перейти по ссылке: https://hexlet-products-store.vercel.app/
    Открыть любую страницу с товарами магазина
-expected-result: |
+  expected-result: |
     На странице изображения отображаются корректно
-actual-result: |
+  actual-result: |
     Изображения растянуты по горизонтали
 
 - summary: |
     Не отображается картинка английского флага в языковом меню
-environment: |
+  environment: |
     Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
     OC Windows 10 pro 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Нажать на Language
-expected-result: |
+  expected-result: |
     Изображения для английской и русской локализации отображаются корректно
-actual-result: |
+  actual-result: |
     В английском языке не отображается изображение флага, отображается только для русской
     
 - summary: |
     Кнопка закрытия "Х" в модальном окне Order placed successfully не работает
-environment: |
+  environment: |
     Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
     OC Windows 10 pro 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Нажать кнопку checkout в корзине с товарами, чтобы проверить закрывается ли "X" в модальном окне
-expected-result: |
+  expected-result: |
     Кнопка закрытия "Х" в модальном окне Order placed successfully должна закрыватся
-actual-result: |
+  actual-result: |
     Кнопка закрытия "Х" в модальном окне Order placed successfully не работает и не закрывается
-    
