@@ -6,7 +6,7 @@
   prerequisites: | 
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Выбрать любой товар 
     - Открыть выбранный товар 
@@ -21,7 +21,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Нажать на "Add to cart", любого выбранного товара
     - Открыть корзину
@@ -35,7 +35,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - снять флажок "In Stock"
   expected-result: |
@@ -48,7 +48,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Выбрать любой товар из каталога
     - Нажать на выбранный товар
@@ -62,7 +62,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Нажать на Category
     - Выбрать любую категорию товара, например - groceries
@@ -76,7 +76,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Ввести в поисковую строку наименование интересующего товара, например - apple
   expected-result: |
@@ -89,7 +89,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Нажать на Category
     - Выбрать любую категорию товара, например - fragrances
@@ -104,7 +104,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Нажать на чекбокс с указанием интересующего бренда товара, например - Dior
   expected-result: |
@@ -117,7 +117,7 @@
   prerequisites: |
     no-data
   test-data: |
-    - "Диапазон от 66 до 77"
+    Диапазон от 66 до 77
   steps:
     - Выбрать диапазон из данных тест даты
   expected-result: |
@@ -130,7 +130,7 @@
   prerequisites: |
     no-data
   test-data: |
-    - "Диапазон от 0 до -76"
+    Диапазон от 0 до 76
   steps:
     - Выбрать диапазон из данных тест даты
   expected-result: |
@@ -143,7 +143,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Переключить страницу каталога
   expected-result: |
@@ -156,7 +156,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Переключить страницу каталога
   expected-result: |
@@ -169,7 +169,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Переключить страницу каталога
   expected-result: |
@@ -182,7 +182,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Выбрать любую категорию товара, например - beauty
     - Сбросить выбранный фильтр
@@ -196,7 +196,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Нажать на чекбоксы с указанием интересующих брендов товаров, например - GUCCI и Chanel
   expected-result: |
@@ -209,7 +209,7 @@
   prerequisites: |
     no-data
   test-data: |
-    no-data
+    no data
   steps:
     - Нажать на чекбоксы с указанием интересующих брендов товаров, например - Dolce & Gabbana и Chanel
     - Указать начальную цену фильтре диапазона цен, например - 8
