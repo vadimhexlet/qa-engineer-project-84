@@ -51,8 +51,8 @@
     Google Chrome Версия 130.0.6723.59 (Официальная сборка), (64 бит)
     OC Windows 10 pro 22H2
   steps-to-reproduce: |
-   Перейти по ссылке: https://hexlet-products-store.vercel.app/
-   Открыть любую страницу с товарами магазина
+    Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    Открыть любую страницу с товарами магазина
   expected-result: |
     На странице изображения отображаются корректно
   actual-result: |
